@@ -1,0 +1,56 @@
+1) Que es Git?
+Parafraseando del sitio web de Git: Es una herramienta de control de versiones para proyectos de
+pequeña a gran escala. Distribuido en formato gratuito de código libre. Dicen caracterizarse por su
+facilidad hacia el usuario y por su alto rendimiento.
+
+2) Que es Github?
+Es un servicio online basado en el uso de la herramienta Git para manejar y desarrollar proyectos en
+conjunto y mediante una interfaz gráfica. El servicio, parcialmente gratuito, permite a los usuarios
+no pagos crear sus proyectos propios y trabajarlos en conjunto con un número limitado de
+colaborares.
+
+3) Que es un branch?
+Según la sección de ayuda de github, es una funcionalidad que tiene que permite separar secciones
+de desarrollo del proyecto de otras para evitar interferencia. Una vez el desarrollo de la sección está
+probado, se puede realizar un pull request y unir el branch con otra sección del proyecto.
+
+4) Que es un commit?
+En el contexto de Github un commit es el equivalente a una entrada de bitácora. Se guarda el
+progreso del proyecto de manera convencional y se adjunta un ID único a cada commit además de
+una breve explicación del cambio realizado.
+
+5) Que se entiende cuando se dice que un archivo esta “staged”?
+Se refiere a subir a la plataforma de Github los cambios realizados hasta el momento. Sin embargo,
+esto no quiere decir que estén documentados propiamente. Todas las modificaciones que estén
+staged serán documentadas de manera colectiva en el próximo commit.
+
+6) Que hace el comando git checkout?
+Utilizar el comando checkout seguido por el nombre de un branch permite hacer coincidir los
+archivos del directorio de trabajo del usuario con los de ese branch en específico e indica en cual
+branch deben ser guardados los próximos commits.
+
+7) Que hace el comando git stash?
+Permite guardar el desarrollo parcial que se tenga y volver a la versión marcada como Head del
+programa. Permite realizar un guardado parcial para evitar incurrir en commits de desarrollos no
+terminados.
+
+8) Que hace el comando git add?
+Permite añadir archivos a la plataforma. El directorio de trabajo es llamado staging area y representa
+los archivos que van a ser sincronizados en el próximo commit.
+
+9) Que hace el comando git reset ~HEAD?
+El comando reset permite retroceder a un commit anterior si existe un error en algún cambio
+realizado anteriormente. Es posible borrar todos los cambios posteriores al commit al que se
+retrocede, o mantenerlos en staging area esperando para ser revisados y subidos nuevamente.
+
+10) Que es Pytest?
+Es una herramienta de testing para python. Se puede utilizar para crear pruebas para su código y
+tiene capacidad de usarse modularmente para probar aplicaciones o bibliotecas (mayor
+complejidad).
+
+12) Que es Flake 8?
+Pyflakes: es un programa simple que busca en archivos de python para detectar errores.
+Pycodestyle: un programa que revisa el código en función de las convenciones PEP 8
+Ned Batchelder’s McCabe script: script que verifica el nivel de complejidad ciclomática del programa
+en una escala númerica.
+Flake 8 corre los tres anteriores utilizando un solo comando.
